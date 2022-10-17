@@ -1,0 +1,19 @@
+{
+  "name": "coverage-e2e",
+  "version": "1.0.0",
+  "main": "api.js",
+  "dependencies": {
+    "supertest": "^6.3.0"
+  },
+  "scripts": {
+    "test": "npx mocha -parallel *.test.js",
+    "test:cov": "npx nyc npx mocha --parallel *.test.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
